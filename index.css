@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.google.com/specimen/Montserrat");
 
 * {
   margin: 0;
   padding: 0;
-}
-
-p {
-  font-size: 14px;
 }
 
 :root {
@@ -35,7 +32,7 @@ p {
 body {
   height: 100vh;
   background-color: hsl(30, 38%, 92%);
-  font-family: "Fraunces", "Montserrat", sans-serif;
+  font-family: "Fraunces", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +46,7 @@ body {
   text-align: center;
   width: 90%;
   border-radius: 25px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -60,4 +58,59 @@ img {
   text-align: left;
   margin: auto;
   width: 80%;
+  margin-top: 30px;
+}
+
+.caption {
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+
+.title {
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 24px;
+  color: hsl(228, 12%, 48%);
+}
+
+.price-wrapper {
+  margin-top: 20px;
+}
+
+.active-price {
+  color: hsl(159, 41%, 27%);
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.deleted-price {
+  color: hsl(228, 12%, 48%);
+}
+
+.button {
+  background-color: hsl(158, 36%, 37%);
+  height: 50px;
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-icon {
+  width: 16px;
 }
