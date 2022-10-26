@@ -69,6 +69,7 @@ img {
 .title {
   margin-top: 10px;
   line-height: 30px;
+  color: hsl(212, 21%, 14%);
 }
 
 .text {
@@ -105,6 +106,7 @@ img {
   align-items: center;
   gap: 10px;
   cursor: pointer;
+  border: none;
 }
 
 .button:hover {
